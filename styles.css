@@ -1,0 +1,158 @@
+h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 100%;
+    background-color: rgba(99, 102, 238, 0.5);
+    border: 0.0001px solid transparent;
+    outline: 0;
+    padding: 2em;
+}
+.white-font {
+    color: white;
+}
+#title {
+    margin-bottom: 0;
+    padding: 0;
+}
+#description {
+    font-size: 18px;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+#survey-form {
+    padding: 2em;
+    border-radius: 1%;
+}
+#age {
+    display: flex;
+    align-items: center;
+}
+.inputs {
+    margin-top: 5px;
+    padding: 10px;
+}
+.normal-font {
+    font-size: 20px;
+}
+.smaller-font {
+    font-size: 15px;
+}
+#dropdown {
+    padding: 10px;
+    margin-top: 10px;
+}
+#dropdown select,  #dropdown option{
+    color: rgb(59, 57, 57);
+}
+.smooth-edge {
+    border-radius: 5%;
+}
+#dropdown:first-child{
+    color: black;
+}
+option {
+    color: rgb(71, 69, 69);
+}
+.favorite-feature {
+    margin-top: 1em;
+}
+.favorite-feature select {
+    padding: 10px;
+    color: rgb(66, 64, 64);
+    margin-top: 10px;
+}
+.favorite-feature option {
+    color: rgb(66, 64, 64);
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(43, 7, 66, 0.7);
+    padding: 1rem;
+}
+.margin-bottom {
+    margin-bottom: 1.5em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 10 0;
+}
+
+.radio-button {
+    align-self: flex-start;
+}
+.radio-group {
+    margin-top: 5px;
+}
+.radio-group input{
+    width: 20px;
+    height: 20px;
+}
+.radio-group input {
+    translate: 0 3px;
+}
+.radio-group span {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: block;
+}
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox {
+    align-self: flex-start;
+}
+
+.checkboxes input {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px; 
+}
+.checkbox-group input {
+    translate: 0 3px;
+}
+.checkbox-group span {
+    padding-left: 10px;
+}
+textarea {
+    margin-top: 7px;
+    margin-bottom: 2em;
+}
+#submit {
+    background-color: rgb(80, 190, 80);
+    border: 0;
+    padding: 10;
+    color: white;
+    height: 50px;
+    font-size: 18px;
+}
+#submit:hover {
+    cursor:pointer;
+}

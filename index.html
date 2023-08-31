@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <link rel='stylesheet' href='styles.css'>
+    <meta charset='utf-8'>
+    <title> Survey </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id='title'>freeCodeCamp Survey Form</h1>
+        <p id='description'><em>Thank you for taking the time to help us improve the platform</em></p>
+        <form id='survey-form'>
+            <label for='name' id='name-label' class="margin-bottom normal-font white-font">Name <input type='name' id='name'
+                    placeholder='Enter your name' class='inputs normal-font smooth-corner ' required> </label>
+            <label for='email' id='email-label' class="margin-bottom normal-font white-font">Email <input type='email' id='email'
+                    placeholder='Enter your email' class='inputs normal-font smooth-corner white-font' required></label>
+            <label for='number' id='number-label' for='number' class="margin-bottom normal-font white-font"><span
+                    id='age'>Age&nbsp;<span class="smaller-font smooth-corner">(optional)</span></span> <input
+                    type='number' placeholder='Age' id='number' class='inputs normal-font' required min='13'
+                    max='99'></label>
+            <label class="margin-bottom normal-font white-font curent-role">Which option best describes your current role?
+                <select id='dropdown' class="normal-font">
+                    <option class="normal-font">Select current role</option>
+                    <option>Student</option>
+                    <option>Remote</option>
+                    <option>Other</option>
+                </select>
+            </label>
+            <label class="normal-font white-font">Would you recommend freeCodeCamp to a friend?
+                <div class='radio-group'>
+                    <label><input type='radio' name='radio' class='radio-button smooth-corner' value='def'
+                            checked><span>Definitely</span></label>
+                    <label><input value='maybe' type='radio' name='radio'
+                            class='radio-button smooth-corner'><span>Maybe</span></label>
+                    <label><input value='not' type='radio' name='radio' class='radio-button smooth-corner'><span>Not
+                            sure</span></label>
+                </div>
+            </label>
+            <label class="favorite-feature margin-bottom normal-font white-font">What is your favorite feature of freeCodeCamp?
+                <select class="margin-bottom normal-font">
+                    <option>Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                </select>
+                <label>
+                    <label class="margin-bottom normal-font checkboxes"><span>What would you like to see iproved? <span>(Check all that apply)</span></span>
+                        <div class='checkbox-group'>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Front-end Projects</span></label>
+                            <label><input type='checkbox' class='checkbox' value='back-end'><span>Back-end Projects</span></label>
+                            <label><input type='checkbox' class='checkbox' value='data-visualization' value='data'><span>Data
+                                Visualization</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Challenges</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Open Source Community</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Gitter help rooms</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Videos</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>City Meetups</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Wiki</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Forum</span></label>
+                            <label><input type='checkbox' class='checkbox' value='front-end'><span>Additional Courses</span></label>
+                        </div>
+                    </label>
+                    <label>Any Comments or suggestions?
+                        <textarea placeholder='Enter your comment here...' rows='8'>
+            </textarea>
+                    </label>
+                    <label for='submit'>
+                        <input id='submit' type='submit' value='Submit'>
+                    </label>
+        </form>
+    </div>
+</body>
+
+</html>
